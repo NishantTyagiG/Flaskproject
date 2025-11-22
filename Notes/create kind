@@ -1,0 +1,2 @@
+choco install kind
+kind create cluster --name cka-training --config kind.yaml

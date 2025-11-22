@@ -1,0 +1,4 @@
+Set-Alias -Name k -Value kubectl (powershell)
+
+if (!(Test-Path -Path $PROFILE)) { New-Item -Type File -Path $PROFILE -Force }
+Add-Content -Path $PROFILE -Value "Set-Alias -Name k -Value kubectl"
